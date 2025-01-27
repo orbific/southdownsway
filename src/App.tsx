@@ -1,17 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import data from './sdw.json';  // Importing the JSON file directly
 
+type Story = {
+    id: string;
+    title: string;
+    characters: string[];
+    collection: string;
+    URL?: string;
+    words?: string;
+    distanceAlongTrail?: number;
+    location?: string;
+};
+
 function App() {
-  const [stories, setStories] = useState([]);
+    const [stories, setStories] = useState<Story[]>([]);
 
   useEffect(() => {
     // Check if data is loaded correctly, otherwise use default data
-    setStories(data.stories || [
-      { title: "Default Story 1", URL: "https://default1.com" },
-      { title: "Default Story 2" },
-      { title: "Default Story 3", URL: "https://default3.com" }
-    ]);
+
+    setStories(data.stories );
   }, []);
 
   return (
