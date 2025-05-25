@@ -1,0 +1,53 @@
+{
+    "collections": [
+        {
+            "id" : "1",
+            "title": "The South Downs Way Part 1",
+            "URL": "https://www.etsy.com/uk/listing/1138024304/south-downs-way-stories-zine"
+        },
+        {
+            "id" : "3",
+            "title": "Crossing Paths"
+        },
+        {
+            "id" : "4",
+            "title": "Weird Tales of the South Downs Way"
+        },
+        {
+            "id" : "5",
+            "title": "Once Upon a Time in Brighton and Hove",
+            "URL": "https://www.etsy.com/uk/listing/1851757232/once-upon-a-time-in-brighton-and-hove"
+
+        },
+        {
+            "id" : "2",
+            "title": "Imaginary Folk Tales of the South Downs Way"
+        },
+        {
+            "id" : "2",
+            "title": "Satan's Albion",
+	   "URL": "XXX"
+        }
+        ,{
+            "id" : "3",
+            "title": "How to Escape the Office"
+        }
+        ,{
+            "id" : "4",
+            "title": "Physics"
+        }
+
+        ,{
+            "id" : "6",
+		"title": "A Haunted (Acid) House Story"
+        }
+        ,{
+            "id" : "7"
+            , "title": "The Apple Tree Man"
+        }
+        ,{
+            "id" : "8"
+            , "title": "Physics"
+        }
+    ]
+}

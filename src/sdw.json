@@ -44,19 +44,26 @@
             "id" : "6",
             "title": "By London Road Station, I Sat Down and Wept",
             "characters": []
-	    , "collection": "How to Escape the Office"
+	    , "collection": "How to Escape the Office",
+            "URL": "https://microfictions.substack.com/p/by-london-road-station-i-sat-down",
+             "words" : "270"
         }
         ,{
             "id" : "7",
             "title": "The Devil's Sermon",
             "characters": []
-	    , "collection": "Satan's Albion"
+	    , "collection": "Satan's Albion",
+            "URL": "https://microfictions.substack.com/p/the-devils-sermon",
+            "words" : "640"
+
         }
         ,{
             "id" : "8",
             "title": "The Office Fox",
             "characters": []
-	    , "collection": "How to Escape the Office"
+	    , "collection": "How to Escape the Office",
+            "URL": "https://microfictions.substack.com/p/the-office-fox",
+            "words" : "560"
         }
         ,{
             "id" : "9",
@@ -68,7 +75,9 @@
             "id" : "10",
             "title": "Green Thumb",
             "characters": []
-	    , "collection": "Once Upon a Time in Brighton and Hove"
+	    , "collection": "Once Upon a Time in Brighton and Hove",
+                    "URL": "https://microfictions.substack.com/p/green-thumb"
+           , "words": "540"
         }
         ,{
             "id" : "11",
@@ -100,7 +109,9 @@
             , "characters": ["Botwulf"]
 	    , "collection": "Imaginary Folk Tales of the South Downs Way"
             , "distanceAlongTrail": 67
-            , "location": "50°49'20″N, 0° 9'9″W"
+            , "location": "50°49'20″N, 0° 9'9″W",
+            "URL": "https://microfictions.substack.com/p/a-skull-in-a-box"
+        , "words": "550"
         }
         ,{
             "id" : "16"
@@ -124,7 +135,9 @@
             "id" : "19"
             , "title": "Skeleton Crew"
             , "characters": []
-	    , "collection": "The Apple Tree Man"
+	    , "collection": "The Apple Tree Man",
+            "URL": "https://microfictions.substack.com/p/skeleton-crew"
+        , "words": "540"
         }
         ,{
             "id" : "20"
@@ -136,7 +149,9 @@
             "id" : "21"
             , "title": "The Soup Witch"
             , "characters": ["Sally", "Soup Witch"]
-	    , "collection": "Satan's Albion"
+	    , "collection": "Satan's Albion",
+            "URL": "https://microfictions.substack.com/p/the-soup-witch"
+        , "words": "720"
         }
         ,{
             "id" : "22"
@@ -148,13 +163,17 @@
             "id" : "23"
             , "title": "Don't Just Bury Your Trauma" 
             , "characters": ["Agnes", "Narrator"]
-	    , "collection": "Once Upon a Time in Brighton and Hove"
-        }
-        ,{
+	    , "collection": "Once Upon a Time in Brighton and Hove",
+            "URL": "https://microfictions.substack.com/p/dont-just-bury-your-trauma"
+        , "words": "270"
+        },
+    {
             "id" : "24"
             , "title": "The Thing in The Churchyard" 
             , "characters": ["Agnes", "Narrator"]
-	    , "collection": "Satan's Albion"
+	    , "collection": "Satan's Albion",
+        "URL": "https://microfictions.substack.com/p/the-thing-in-the-churchyard"
+    , "words": "540"
         }
         ,{
             "id" : "23"
@@ -180,5 +199,328 @@
             , "characters": ["The Walker"]
 	    , "collection": "Once Upon a Time in Brighton and Hove"
         }
+	,{
+            "id" : "27"
+            , "title": "How Barnaby Lewis started twitching" 
+            , "characters": ["Barnaby Lewis"]
+	    , "collection": "A Haunted (Acid) House Story"
+            , "URL": "https://microfictions.substack.com/p/how-barnaby-lewis-started-twitching"
+            , "words": "600"
+        }
+	,{
+            "id" : "28"
+            , "title": "Sheela na gig" 
+            , "characters": ["The Walker"]
+	    , "collection": "Satan's Albion"
+            , "URL": "https://microfictions.substack.com/p/sheela-na-gig"
+            , "words": "280"
+        }
+	,{
+            "id" : "29"
+            , "title": "Endless Summer" 
+            , "characters": ["Kenny", "The Devil"]
+	    , "collection": "Satan's Albion"
+            , "URL": "https://microfictions.substack.com/p/endless-summer"
+        }
+	,{
+            "id" : "29"
+            , "title": "How Paul Sampson Was Kicked Out of the Band" 
+            , "characters": ["Davey the Drummer"]
+            , "URL": "https://microfictions.substack.com/p/how-paul-sampson-was-kicked-out-of"
+            , "words": "550"
+        }
+	,{
+            "id" : "30"
+            , "title": "Every Golf Course is Stolen Land" 
+            , "characters": ["Hugh", "Gary"]
+            , "URL": "https://microfictions.substack.com/p/every-golf-course-is-stolen-land"
+            , "words": "500"
+        }
+    ,{
+            "id" : "31"
+        , "title": "The Best Ever Satanic Cult out of Henfield"
+        , "characters": ["Jimmy King", "Nearvana Bassist"]
+        , "URL": "https://microfictions.substack.com/p/the-best-ever-satanic-cult-out-of"
+        , "words": "340"
+        }
+        ,{
+            "id" : "32"
+            , "title": "Escaping Fairyland"
+            ,"characters": ["The Walker"]
+            , "collection": "The South Downs Way Part 1"
+            , "words": "300"
+        }
+    ,{
+            "id" : "33"
+        , "title": "The Return of the King"
+        ,"characters": ["Billy"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "400"
+        }
+    ,{
+            "id" : "34"
+        , "title": "Walking Boots"
+        ,"characters": ["The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "150"
+        }
+    ,{
+            "id" : "35"
+        , "title": "Last Rites"
+        ,"characters": ["Judy", "Charlotte"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "290"
+        }
+    ,{
+            "id" : "36"
+        , "title": "Anna Waits"
+        ,"characters": ["Anna"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "200"
+        }
+    ,{
+            "id" : "37"
+        , "title": "The Good Hikers"
+        ,"characters": ["Judy"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "160"
+        }
+    ,{
+            "id" : "38"
+        , "title": "Rich People's Dogs"
+        ,"characters": ["Helen", "Jeff", "Alejandro"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "530"
+        }
+    ,{
+            "id" : "39"
+        , "title": "Ghost Trees"
+        ,"characters": ["The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "245"
+        }
+    ,{
+            "id" : "40"
+        , "title": "The Future"
+        ,"characters": ["The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "70"
+        }
+    ,{
+            "id" : "41"
+        , "title": "A Scratched, But Well-Loved Table"
+        ,"characters": ["The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "270"
+        }
+    ,{
+            "id" : "42"
+        , "title": "The SAS Survival Guide"
+        ,"characters": ["The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "320"
+        }
+    ,{
+            "id" : "43"
+        , "title": "Buried treasure"
+        ,"characters": ["The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "310"
+        }
+    ,{
+            "id" : "44"
+        , "title": "Harvest"
+        , "collection": "The South Downs Way Part 1"
+        , "words": "280"
+        }
+    ,{
+            "id" : "45"
+        , "title": "Why I no longer rent the barn on Airbnb"
+        , "collection": "The South Downs Way Part 1"
+        , "words": "190"
+        }
+    ,{
+            "id" : "46"
+        , "title": "Helios"
+        ,"characters": ["The Devil", "Helios"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "490"
+        }
+    ,{
+            "id" : "47"
+        , "title": "Birling Gap Cafe"
+        ,"characters": ["Judy", "The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "300"
+        }
+    ,{
+            "id" : "48"
+        , "title": "Single-Finger Signpost"
+        ,"characters": ["The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "260"
+        }
+    ,{
+            "id" : "49"
+        , "title": "Good Girls and Doomed Men"
+        ,"characters": ["Anna", "Alex"]
+        , "collection": "A Haunted (Acid) House Story"
+        , "URL": "https://microfictions.substack.com/p/single-finger-signpost",
+            "words": "390"
+        }
+    ,{
+            "id" : "50"
+        , "title": "Short Squeeze"
+        ,"characters": ["Hugo", "Charlotte"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "590"
+        }
+    ,{
+            "id" : "51"
+        , "title": "Ghosts of the A272"
+        ,"characters": ["Barry"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "460"
+        }
+    ,{
+            "id" : "52"
+        , "title": "Taking the Piss"
+        ,"characters": ["Rick"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "480"
+        }
+    ,{
+            "id" : "53"
+        , "title": "The Ghost Auction"
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "600"
+        }
+    ,{
+            "id" : "54"
+        , "title": "The Dolorous Stroke"
+        ,"characters": ["Jeremy"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "540"
+        }
+    ,{
+            "id" : "55"
+        , "title": "The Butcher's Handcream"
+        ,"characters": ["Ellie"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "570"
+        }
+    ,{
+            "id" : "56"
+        , "title": "Defence Area 14"
+        ,"characters": ["Duncan"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "510"
+        }
+    ,{
+            "id" : "57"
+        , "title": "Knives for All Your Children"
+        ,"characters": ["Harry"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "540"
+        }
+    ,{
+            "id" : "58"
+        , "title": "Corpsing"
+        ,"characters": ["Jill", "The Walker"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "470"
+        }
+    ,{
+            "id" : "59"
+        , "title": "How to Make a Map"
+        ,"characters": ["The Walker"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "150"
+        },
+        {
+            "id" : "60"
+        , "title": "The Wake: Luke 15:3-7"
+        ,"characters": ["The Walker"]
+        , "collection": "Weird Tales of the South Downs Way"
+        ,    "words": "520"
+        },
+        {
+            "id" : "61"
+        , "title": "A Dream of the Downs"
+        ,"characters": []
+        , "collection": "Crossing Paths"
+        ,    "words": "500"
+        },
+        {
+            "id" : "61"
+        , "title": "Dromomania"
+        ,"characters": ["Dr Sally Jones"]
+        , "collection": "Crossing Paths"
+        ,    "words": "460"
+        },
+        {
+            "id" : "62"
+        , "title": "The Mole-catcher's count"
+        ,"characters": ["Cate", "Andy"]
+        , "collection": "Crossing Paths"
+        ,    "words": "480"
+        },
+        {
+            "id" : "63"
+        , "title": "The Pub that the Posh People Don’t Visit"
+        ,"characters": ["Nathaniel"]
+        , "collection": "Crossing Paths"
+        ,    "words": "510"
+        },
+        {
+            "id" : "64"
+        , "title": "Alan's Last Breakfast"
+        ,"characters": ["Alan"]
+        , "collection": "Crossing Paths"
+        ,    "words": "490"
+        },
+        {
+            "id" : "65"
+        , "title": "Saturdays with Dad"
+        ,"characters": ["Paul"]
+        , "collection": "Crossing Paths"
+        ,    "words": "330"
+        },
+        {
+            "id" : "66"
+        , "title": "Something That Happened in the Woods Near the Estate Which Have Now Been Built Over"
+        ,"characters": ["The Walker"]
+        , "collection": "Crossing Paths"
+        ,    "words": "530"
+        },
+        {
+            "id" : "67"
+        , "title": "The Long Corridor"
+        ,"characters": ["The Walker"]
+        , "collection": "Crossing Paths"
+        ,    "words": "420"
+        },
+        {
+            "id" : "68"
+        , "title": "How to Take a Holiday"
+        ,"characters": ["The Walker"]
+        , "collection": "Crossing Paths"
+        ,    "words": "420"
+        },
+        {
+            "id" : "68"
+        , "title": "The Secret of Fortune Telling"
+        ,"characters": ["Sam", "Madam Quark"]
+        , "collection": "Crossing Paths"
+        ,    "words": "500"
+        },
+        {
+            "id" : "69"
+        , "title": "Sensitive Dependence on Initial Conditions"
+        ,"characters": ["Edward Thomas"]
+        , "collection": "Crossing Paths"
+        ,    "words": "480"
+        }
+
     ]
 }

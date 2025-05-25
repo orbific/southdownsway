@@ -1,5 +1,6 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -55,6 +56,8 @@ body {
   color: #4f4a41; /* Warm gray text color */
   line-height: 1.6;
   padding: 20px;
+  margin: 0;
+  min-height: 100vh; /* Ensure the body covers the full viewport height */
 }
 
 h1 {
@@ -90,8 +93,35 @@ a:hover {
 
 @media (min-width: 600px) {
   body {
-    max-width: 900px;
     margin: 0 auto;
   }
 }
 
+.toggle-button {
+  background: none;
+  border: 0px solid #333; /* Smaller border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  margin-left: 0px;
+  padding: 0px 6px; /* Add some space around the button */
+  font-size: 1.2em;
+  color: #333;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+/* Indent the stories revealed by the toggle button */
+.indented-stories {
+  padding-left: 20px; /* Add padding to indent */
+}
+
+h2 {
+  text-align: left;
+  margin-left: 0px; /* Align with uncategorized list items */
+}
+
+.indented-stories {
+  padding-left: 40px; /* Indent the stories within the h2 */
+}
