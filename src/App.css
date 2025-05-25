@@ -57,7 +57,6 @@ body {
   line-height: 1.6;
   padding: 20px;
   margin: 0;
-  min-height: 100vh; /* Ensure the body covers the full viewport height */
 }
 
 h1 {
@@ -124,4 +123,12 @@ h2 {
 
 .indented-stories {
   padding-left: 40px; /* Indent the stories within the h2 */
+}
+
+.about {
+  text-align: justify;
+}
+
+.about > p {
+  padding-top: 10px;
 }

@@ -26,7 +26,11 @@ a:hover {
 
 body {
   margin: 0;
+  /*
+  This seems to be causing issues with the vertical alignment -
+  but also useful for centering content.
   display: flex;
+   */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
