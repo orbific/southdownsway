@@ -1,0 +1,15 @@
+{
+    "characters": [
+        {
+            "id" : "1",
+            "name": "The Devil",
+            "description": "The Devil was cast out of heaven and landed in Sussex. He spends less time tempting people than he used to. "
+        },
+        {
+            "id" : "2",
+            "name": "The Walker",
+            "description": "Telling stories of the South Downs Way."
+        }
+
+    ]
+}
