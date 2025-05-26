@@ -6,12 +6,18 @@ type Story = {
     id: string;
     title: string;
     characters?: string[];
+    collection?: string;
+    URL?: string;
+    words?: string;
+    distanceAlongTrail?: number;
+    location?: string;
 };
 
 type Character = {
     id?: string;
     name: string;
     description?: string;
+    stories: Story[];
 };
 
 const CharactersPage: React.FC = () => {
