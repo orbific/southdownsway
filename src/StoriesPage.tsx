@@ -61,34 +61,32 @@ return (
                 return acc;
             }, {} as Record<string, Story[]>)
         ).map(([collection, stories]) => (
-            <div key={collection}>
-                <h2>
-                    {/*<button onClick={() => toggleVisibility(collection)} className="toggle-button">*/}
-                    {/*    <i className={`fas ${visibleCollections[collection] ? 'fa-minus' : 'fa-plus'}`}></i>*/}
-                    {/*</button>*/}
-                    <span onClick={() => toggleVisibility(collection)} className="toggle-button">
-                            <span style={{fontFamily: 'sans-serif'}}>{visibleCollections[collection] ? 'v' : '>'}</span>
-                        </span>
+            <div key={collection} className="collection-section">
+                <h2
+                    onClick={() => toggleVisibility(collection)}
+                    className="collection-heading"
+                    aria-expanded={!!visibleCollections[collection]}
+                >
+                    <i className={`fas fa-chevron-right collection-chevron ${visibleCollections[collection] ? 'expanded' : ''}`}></i>
                     <a href={typedCollections.find((col: Collection) => col.title === collection)?.URL}
-                       target="_blank" rel="noopener noreferrer">
+                       target="_blank" rel="noopener noreferrer"
+                       onClick={e => e.stopPropagation()}>
                         {collection}
                     </a>
                 </h2>
-                {visibleCollections[collection] && (
-                    <ul>
-                        {stories.map((story, index) => (
-                            <li key={index} className="indented-stories">
-                                {story.URL ? (
-                                    <a href={story.URL} target="_blank" rel="noopener noreferrer">
-                                        {story.title}
-                                    </a>
-                                ) : (
-                                    <span>{story.title}</span>
-                                )}
-                            </li>
-                        ))}
-                    </ul>
-                )}
+                <ul className={`story-list ${visibleCollections[collection] ? 'visible' : ''}`}>
+                    {stories.map((story, index) => (
+                        <li key={index} className="indented-stories">
+                            {story.URL ? (
+                                <a href={story.URL} target="_blank" rel="noopener noreferrer">
+                                    {story.title}
+                                </a>
+                            ) : (
+                                <span>{story.title}</span>
+                            )}
+                        </li>
+                    ))}
+                </ul>
             </div>
         ))}
         <div>

@@ -49,19 +49,18 @@ const CharactersPage: React.FC = () => {
     }, []);
 
     return (
-        <div>
-            <h1>Characters</h1>
+        <div className="characters-page">
             {characters.map(character => (
-                <div key={character.name}>
+                <div key={character.name} className="character-card">
                     <h2>{character.name}</h2>
-                    {character.description && <p style={{ fontStyle: 'italic', textAlign: 'left' }}>{character.description}</p>}
+                    {character.description && <p className="character-description">{character.description}</p>}
                     <ul>
                         {character.stories.map(story => (
                             <li key={story.id}>
                                 {story.URL ? (
-                                    <a href={story.URL} target="_blank" rel="noopener noreferrer">• {story.title}</a>
+                                    <a href={story.URL} target="_blank" rel="noopener noreferrer">{story.title}</a>
                                 ) : (
-                                    <>• {story.title}</>
+                                    <span>{story.title}</span>
                                 )}
                             </li>
                         ))}

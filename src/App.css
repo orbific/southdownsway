@@ -1,134 +1,163 @@
 @import '@fortawesome/fontawesome-free/css/all.css';
 
-#root {
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-/* Additional CSS */
-/* Global styles */
+/* ── Reset ── */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Merriweather', serif; /* Use a calming serif font */
-  background-color: #f7f1e1; /* Soft, light cream color */
-  color: #4f4a41; /* Warm gray text color */
-  line-height: 1.6;
-  padding: 20px;
-  margin: 0;
+/* ── Layout ── */
+#root {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
 }
 
+/* ── Base ── */
+body {
+  font-family: 'Lora', serif;
+  background-color: #f7f1e1;
+  color: #4f4a41;
+  line-height: 1.7;
+}
+
+/* ── Typography ── */
 h1 {
-  font-family: 'Dancing Script', cursive; /* A nice handwritten script for headings */
-  font-size: 3rem;
-  color: #a49a77; /* Muted gold color */
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #a49a77;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #6b8e23;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #8b5e3c;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: left; /* Left-align the links */
+  text-align: left;
 }
 
 li {
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
-a {
-  display: inline-block;
-  text-decoration: none;
-  color: #6b8e23; /* Olive green */
-  transition: color 0.3s ease;
-  border-bottom: 2px solid transparent;
+/* ── Collection accordion ── */
+.collection-section {
+  margin-top: 28px;
 }
 
-a:hover {
-  color: #8b5e3c; /* Muted brown on hover */
-}
-
-@media (min-width: 600px) {
-  body {
-    margin: 0 auto;
-  }
-}
-
-.toggle-button {
-  background: none;
-  border: 0px solid #333; /* Smaller border */
-  border-radius: 4px; /* Rounded corners */
+.collection-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   cursor: pointer;
-  margin-left: 0px;
-  padding: 0px 6px; /* Add some space around the button */
-  font-size: 1.2em;
-  color: #333;
+  user-select: none;
+  margin-bottom: 4px;
+  transition: color 0.2s ease;
 }
 
-.toggle-button:focus {
-  outline: none;
+.collection-heading:hover {
+  color: #8b5e3c;
 }
 
-/* Indent the stories revealed by the toggle button */
+.collection-chevron {
+  font-size: 0.65em;
+  color: #a49a77;
+  transition: transform 0.25s ease, color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.collection-chevron.expanded {
+  transform: rotate(90deg);
+}
+
+.collection-heading:hover .collection-chevron {
+  color: #8b5e3c;
+}
+
+.story-list {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.25s ease;
+}
+
+.story-list.visible {
+  max-height: 1000px;
+  opacity: 1;
+  margin-bottom: 8px;
+}
+
 .indented-stories {
-  padding-left: 20px; /* Add padding to indent */
+  padding-left: 24px;
 }
 
-h2 {
+/* ── Characters ── */
+.characters-page {
+  padding-top: 8px;
+}
+
+.character-card {
+  padding-top: 24px;
+  margin-top: 24px;
+  border-top: 1px solid #ddd5be;
+}
+
+.character-card:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.character-card h2 {
+  margin-bottom: 6px;
+}
+
+.character-description {
+  font-style: italic;
+  color: #7a6f5e;
+  margin-bottom: 10px;
   text-align: left;
-  margin-left: 0px; /* Align with uncategorized list items */
 }
 
-.indented-stories {
-  padding-left: 40px; /* Indent the stories within the h2 */
+.character-card ul {
+  padding-left: 4px;
 }
 
-.about {
-  text-align: justify;
+/* ── About ── */
+.about-page {
+  max-width: 560px;
+  margin: 24px auto 0;
+  text-align: left;
 }
 
-.about > p {
-  padding-top: 10px;
+.about-page p {
+  margin-top: 16px;
+  line-height: 1.8;
+}
+
+.about-page p:first-child {
+  margin-top: 0;
 }
