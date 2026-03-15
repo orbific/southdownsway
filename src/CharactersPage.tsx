@@ -41,8 +41,11 @@ const CharactersPage: React.FC = () => {
             };
         });
 
+        // Filter characters appearing in more than one story
+        const filteredCharacters = combinedCharacters.filter(character => character.stories.length > 1);
+
         // Sort by ID (numerically) and then alphabetically by name
-        combinedCharacters.sort((a, b) => {
+        filteredCharacters.sort((a, b) => {
             if (a.id && b.id) {
                 return parseInt(a.id) - parseInt(b.id);
             }
@@ -51,7 +54,7 @@ const CharactersPage: React.FC = () => {
             return a.name.localeCompare(b.name);
         });
 
-        setCharacters(combinedCharacters);
+        setCharacters(filteredCharacters);
     }, []);
 
     return (
@@ -60,7 +63,11 @@ const CharactersPage: React.FC = () => {
             {characters.map(character => (
                 <div key={character.name}>
                     <h2>{character.name}</h2>
-                    {character.description && <p style={{ fontStyle: 'italic', textAlign: 'left' }}>{character.description}</p>}
+                    {character.description && (
+                        <p style={{ fontStyle: 'italic', textAlign: 'left' }}>
+                            <em>{character.description}</em>
+                        </p>
+                    )}
                     <ul>
                         {character.stories.map(story => (
                             <li key={story.id}>

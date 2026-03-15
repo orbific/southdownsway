@@ -41,7 +41,7 @@ const StoriesPage: React.FC = () => {
 
         const categorizedStories = stories
             .filter(story => story.collection && typedCollections.find(col => col.title === story.collection)?.URL)
-            .sort((a, b) => parseInt(b.id) - parseInt(a.id));
+            .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
         const uncategorizedStories = stories
             .filter(story => !story.collection || !typedCollections.find(col => col.title === story.collection)?.URL)

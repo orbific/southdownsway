@@ -1,12 +1,23 @@
 {
     "stories": [
         {
-            "id" : "1",
+            "id" : "1"
+        , "title": "Escaping Fairyland"
+        ,"characters": ["The Walker"]
+        , "collection": "The South Downs Way Part 1"
+        , "words": "300"
+        , "longitude": -0.153
+        , "latitude": 50.901
+        },
+        {
+            "id" : "32",
             "title": "The Lost Village",
             "characters": ["Jeff","Sally"]
 	    , "collection": "Imaginary Folk Tales of the South Downs Way"
 	    , "URL": "https://microfictions.substack.com/p/the-lost-village"            
            , "words": "550"
+            , "longitude": -0.153
+            , "latitude": 50.901
         },
         {
             "id" : "2",
@@ -243,13 +254,6 @@
         , "URL": "https://microfictions.substack.com/p/the-best-ever-satanic-cult-out-of"
         , "words": "340"
         }
-        ,{
-            "id" : "32"
-            , "title": "Escaping Fairyland"
-            ,"characters": ["The Walker"]
-            , "collection": "The South Downs Way Part 1"
-            , "words": "300"
-        }
     ,{
             "id" : "33"
         , "title": "The Return of the King"
@@ -319,6 +323,8 @@
         ,"characters": ["The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "320"
+        , "longitude": -0.13083333,
+            "latitude": 50.90055556
         }
     ,{
             "id" : "43"
@@ -345,6 +351,8 @@
         ,"characters": ["The Devil", "Helios"]
         , "collection": "The South Downs Way Part 1"
         , "words": "490"
+            , "longitude": 0.156484,
+            "latitude": 50.8077
         }
     ,{
             "id" : "47"
@@ -387,7 +395,9 @@
         , "title": "Taking the Piss"
         ,"characters": ["Rick"]
         , "collection": "Weird Tales of the South Downs Way"
-        ,    "words": "480"
+        ,    "words": "480",
+        "longitude": -1.033,
+            "latitude": 50.994
         }
     ,{
             "id" : "53"
