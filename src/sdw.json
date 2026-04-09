@@ -56,7 +56,7 @@
             "title": "By London Road Station, I Sat Down and Wept",
             "characters": []
 	    , "collection": "How to Escape the Office",
-            "URL": "https://microfictions.substack.com/p/by-london-road-station-i-sat-down",
+            "URL": "https://buttondown.com/microfictions/archive/by-london-road-station-i-sat-down/",
              "words" : "270"
         }
         ,{
@@ -64,7 +64,7 @@
             "title": "The Devil's Sermon",
             "characters": []
 	    , "collection": "Satan's Albion",
-            "URL": "https://microfictions.substack.com/p/the-devils-sermon",
+            "URL": "https://buttondown.com/microfictions/archive/the-devils-sermon/",
             "words" : "640"
 
         }
@@ -73,7 +73,7 @@
             "title": "The Office Fox",
             "characters": []
 	    , "collection": "How to Escape the Office",
-            "URL": "https://microfictions.substack.com/p/the-office-fox",
+            "URL": "https://buttondown.com/microfictions/archive/the-office-fox/",
             "words" : "560"
         }
         ,{
@@ -81,13 +81,14 @@
             "title": "Ghost Particles (Prelude)",
             "characters": []
 	    , "collection": "Physics"
+	    , "URL": "https://buttondown.com/microfictions/archive/ghost-particles/"
         }
         ,{
             "id" : "10",
             "title": "Green Thumb",
             "characters": []
 	    , "collection": "Once Upon a Time in Brighton and Hove",
-                    "URL": "https://microfictions.substack.com/p/green-thumb"
+                    "URL": "https://buttondown.com/microfictions/archive/green-thumb/"
            , "words": "540"
         }
         ,{
@@ -95,24 +96,28 @@
             "title": "Stragglers",
             "characters": []
 	    , "collection": "Once Upon a Time in Brighton and Hove"
+            , "URL": "https://buttondown.com/microfictions/archive/stragglers/"
         }
         ,{
             "id" : "12",
             "title": "Everyone in an Anecdote has a different version of it",
             "characters": []
 	    , "collection": "Once Upon a Time in Brighton and Hove"
+	    , "URL": "https://buttondown.com/microfictions/archive/everyone-in-an-anecdote-has-a-different/"
         }
         ,{
             "id" : "13",
             "title": "Barefoot",
             "characters": []
 	    , "collection": "Satan's Albion"
+            , "URL": "https://buttondown.com/microfictions/archive/barefoot/"
         }
         ,{
             "id" : "14",
             "title": "Arabella Trinity, by her ex-lovers",
             "characters": []
 	    , "collection": "Once Upon a Time in Brighton and Hove"
+            , "URL": "https://buttondown.com/microfictions/archive/arabella-trinity-by-her-ex-lovers/"
         }
         ,{
             "id" : "15"
@@ -121,7 +126,7 @@
 	    , "collection": "Imaginary Folk Tales of the South Downs Way"
             , "distanceAlongTrail": 67
             , "location": "50°49'20″N, 0° 9'9″W",
-            "URL": "https://microfictions.substack.com/p/a-skull-in-a-box"
+            "URL": "https://buttondown.com/microfictions/archive/a-skull-in-a-box/"
         , "words": "550"
         }
         ,{
@@ -135,19 +140,21 @@
             , "title": "No Good Old Days"
             , "characters": ["Ant","Jeff","Phil","Thomas","Jenny"]
 	    , "collection": "A Haunted (Acid) House Story"
+            , "URL": "https://buttondown.com/microfictions/archive/no-good-old-days/"
         }
         ,{
             "id" : "18"
             , "title": "Moving House"
             , "characters": ["Ant"]
 	    , "collection": "A Haunted (Acid) House Story"
+            , "URL": "https://buttondown.com/microfictions/archive/moving-house/"
         }
         ,{
             "id" : "19"
             , "title": "Skeleton Crew"
             , "characters": []
 	    , "collection": "The Apple Tree Man",
-            "URL": "https://microfictions.substack.com/p/skeleton-crew"
+            "URL": "https://buttondown.com/microfictions/archive/skeleton-crew/"
         , "words": "540"
         }
         ,{
@@ -155,13 +162,14 @@
             , "title": "Who Made the Stars"
             , "characters": []
 	    , "collection": "Physics"
+            , "URL": "https://buttondown.com/microfictions/archive/who-made-the-stars/"
         }
         ,{
             "id" : "21"
             , "title": "The Soup Witch"
             , "characters": ["Sally", "Soup Witch"]
 	    , "collection": "Satan's Albion",
-            "URL": "https://microfictions.substack.com/p/the-soup-witch"
+            "URL": "https://buttondown.com/microfictions/archive/the-soup-witch/"
         , "words": "720"
         }
         ,{
@@ -169,13 +177,14 @@
             , "title": "A Journey Around the Room"
             , "characters": ["Lydia"]
 	    , "collection": "Once Upon a Time in Brighton and Hove"
+	    , "URL": "https://buttondown.com/microfictions/archive/a-journey-around-the-room/"
         }
         ,{
             "id" : "23"
             , "title": "Don't Just Bury Your Trauma" 
             , "characters": ["Agnes", "Narrator"]
 	    , "collection": "Once Upon a Time in Brighton and Hove",
-            "URL": "https://microfictions.substack.com/p/dont-just-bury-your-trauma"
+            "URL": "https://buttondown.com/microfictions/archive/dont-just-bury-your-trauma/"
         , "words": "270"
         },
     {
@@ -183,7 +192,7 @@
             , "title": "The Thing in The Churchyard" 
             , "characters": ["Agnes", "Narrator"]
 	    , "collection": "Satan's Albion",
-        "URL": "https://microfictions.substack.com/p/the-thing-in-the-churchyard"
+        "URL": "https://buttondown.com/microfictions/archive/the-thing-in-the-churchyard/"
     , "words": "540"
         }
         ,{
@@ -215,7 +224,7 @@
             , "title": "How Barnaby Lewis started twitching" 
             , "characters": ["Barnaby Lewis"]
 	    , "collection": "A Haunted (Acid) House Story"
-            , "URL": "https://microfictions.substack.com/p/how-barnaby-lewis-started-twitching"
+            , "URL": "https://buttondown.com/microfictions/archive/how-barnaby-lewis-started-twitching/"
             , "words": "600"
         }
 	,{
@@ -223,7 +232,7 @@
             , "title": "Sheela na gig" 
             , "characters": ["The Walker"]
 	    , "collection": "Satan's Albion"
-            , "URL": "https://microfictions.substack.com/p/sheela-na-gig"
+            , "URL": "https://buttondown.com/microfictions/archive/sheela-na-gig/"
             , "words": "280"
         }
 	,{
@@ -231,27 +240,27 @@
             , "title": "Endless Summer" 
             , "characters": ["Kenny", "The Devil"]
 	    , "collection": "Satan's Albion"
-            , "URL": "https://microfictions.substack.com/p/endless-summer"
+            , "URL": "https://buttondown.com/microfictions/archive/endless-summer/"
         }
 	,{
             "id" : "29"
             , "title": "How Paul Sampson Was Kicked Out of the Band" 
             , "characters": ["Davey the Drummer"]
-            , "URL": "https://microfictions.substack.com/p/how-paul-sampson-was-kicked-out-of"
+            , "URL": "https://buttondown.com/microfictions/archive/how-paul-sampson-was-kicked-out-of/"
             , "words": "550"
         }
 	,{
             "id" : "30"
             , "title": "Every Golf Course is Stolen Land" 
             , "characters": ["Hugh", "Gary"]
-            , "URL": "https://microfictions.substack.com/p/every-golf-course-is-stolen-land"
+            , "URL": "https://buttondown.com/microfictions/archive/every-golf-course-is-stolen-land/"
             , "words": "500"
         }
     ,{
             "id" : "31"
         , "title": "The Best Ever Satanic Cult out of Henfield"
         , "characters": ["Jimmy King", "Nearvana Bassist"]
-        , "URL": "https://microfictions.substack.com/p/the-best-ever-satanic-cult-out-of"
+        , "URL": "https://buttondown.com/microfictions/archive/the-best-ever-satanic-cult-out-of/"
         , "words": "340"
         }
     ,{
@@ -373,7 +382,7 @@
         , "title": "Good Girls and Doomed Men"
         ,"characters": ["Anna", "Alex"]
         , "collection": "A Haunted (Acid) House Story"
-        , "URL": "https://microfictions.substack.com/p/single-finger-signpost",
+        , "URL": "https://buttondown.com/microfictions/archive/good-girls-and-doomed-men/",
             "words": "390"
         }
     ,{
@@ -531,6 +540,13 @@
         , "collection": "Crossing Paths"
         ,    "words": "480"
         }
-
+        ,{
+            "id" : "70",
+            "title": "The Summer Fete",
+            "characters": ["The Devil"]
+	    , "collection": "Satan's Albion",
+            "URL": "https://buttondown.com/microfictions/archive/the-summer-fete/",
+            "words" : "505"
+        }
     ]
 }
