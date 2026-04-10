@@ -269,6 +269,8 @@
         ,"characters": ["Billy"]
         , "collection": "The South Downs Way Part 1"
         , "words": "400"
+        , "longitude": -1.3206
+        , "latitude": 51.0625 
         }
     ,{
             "id" : "34"
@@ -276,6 +278,8 @@
         ,"characters": ["The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "150"
+        , "longitude": -0.15
+        , "latitude": 50.82 
         }
     ,{
             "id" : "35"
@@ -283,6 +287,8 @@
         ,"characters": ["Judy", "Charlotte"]
         , "collection": "The South Downs Way Part 1"
         , "words": "290"
+        , "longitude": -1.29500000
+        , "latitude": 51.05944444  
         }
     ,{
             "id" : "36"
@@ -290,6 +296,8 @@
         ,"characters": ["Anna"]
         , "collection": "The South Downs Way Part 1"
         , "words": "200"
+        , "longitude": -1.033
+        , "latitude": 50.994
         }
     ,{
             "id" : "37"
@@ -297,6 +305,8 @@
         ,"characters": ["Judy"]
         , "collection": "The South Downs Way Part 1"
         , "words": "160"
+        , "longitude": -0.99666667
+        , "latitude": 50.97388889
         }
     ,{
             "id" : "38"
@@ -304,6 +314,8 @@
         ,"characters": ["Helen", "Jeff", "Alejandro"]
         , "collection": "The South Downs Way Part 1"
         , "words": "530"
+        , "longitude": -0.61611111
+        , "latitude": 50.90777778 
         }
     ,{
             "id" : "39"
@@ -311,6 +323,8 @@
         ,"characters": ["The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "245"
+        , "longitude": -0.32777778
+        , "latitude": 50.88666667  
         }
     ,{
             "id" : "40"
@@ -318,6 +332,8 @@
         ,"characters": ["The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "70"
+        , "longitude": -0.19444444
+        , "latitude": 50.88861111  
         }
     ,{
             "id" : "41"
@@ -325,6 +341,8 @@
         ,"characters": ["The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "270"
+        , "longitude": -0.16388889
+        , "latitude": 50.89861111  
         }
     ,{
             "id" : "42"
@@ -332,8 +350,8 @@
         ,"characters": ["The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "320"
-        , "longitude": -0.13083333,
-            "latitude": 50.90055556
+        , "longitude": -0.13083333
+        ,    "latitude": 50.90055556
         }
     ,{
             "id" : "43"
@@ -341,18 +359,24 @@
         ,"characters": ["The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "310"
+        , "longitude": -0.12222222
+        ,    "latitude": 50.90250000
         }
     ,{
             "id" : "44"
         , "title": "Harvest"
         , "collection": "The South Downs Way Part 1"
         , "words": "280"
+        , "longitude": 0.00500000
+        ,    "latitude": 50.88333333
         }
     ,{
             "id" : "45"
         , "title": "Why I no longer rent the barn on Airbnb"
         , "collection": "The South Downs Way Part 1"
         , "words": "190"
+        , "longitude":  0.01333333
+        ,    "latitude": 50.83583333
         }
     ,{
             "id" : "46"
@@ -369,6 +393,8 @@
         ,"characters": ["Judy", "The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "300"
+            , "longitude": 0.20138889,
+            "latitude": 50.74305556
         }
     ,{
             "id" : "48"
@@ -376,6 +402,8 @@
         ,"characters": ["The Walker"]
         , "collection": "The South Downs Way Part 1"
         , "words": "260"
+            , "longitude": 0.290658,
+            "latitude": 50.765918
         }
     ,{
             "id" : "49"
@@ -466,7 +494,7 @@
         {
             "id" : "61"
         , "title": "A Dream of the Downs"
-        ,"characters": []
+        ,"characters": ["The Dream-Whisperer", "The Emperor"]
         , "collection": "Crossing Paths"
         ,    "words": "500"
         },
@@ -476,13 +504,20 @@
         ,"characters": ["Dr Sally Jones"]
         , "collection": "Crossing Paths"
         ,    "words": "460"
+        , "longitude":  -0.15238
+        ,    "latitude": 50.82224
         },
+
+
+
         {
             "id" : "62"
         , "title": "The Mole-catcher's count"
         ,"characters": ["Cate", "Andy"]
         , "collection": "Crossing Paths"
         ,    "words": "480"
+        , "longitude":  -1.128746
+        ,    "latitude": 50.98416
         },
         {
             "id" : "63"
@@ -497,6 +532,8 @@
         ,"characters": ["Alan"]
         , "collection": "Crossing Paths"
         ,    "words": "490"
+        , "longitude":  -0.5356416
+        ,    "latitude": 50.901388
         },
         {
             "id" : "65"
@@ -504,6 +541,8 @@
         ,"characters": ["Paul"]
         , "collection": "Crossing Paths"
         ,    "words": "330"
+        , "longitude":  -0.2113763
+        ,    "latitude": 50.8839655
         },
         {
             "id" : "66"
@@ -511,6 +550,8 @@
         ,"characters": ["The Walker"]
         , "collection": "Crossing Paths"
         ,    "words": "530"
+        , "longitude":  -0.2113763
+        ,    "latitude": 50.8839655
         },
         {
             "id" : "67"
@@ -518,6 +559,8 @@
         ,"characters": ["The Walker"]
         , "collection": "Crossing Paths"
         ,    "words": "420"
+        , "longitude":  -0.2113763
+        ,    "latitude": 50.8839655
         },
         {
             "id" : "68"
@@ -525,6 +568,8 @@
         ,"characters": ["The Walker"]
         , "collection": "Crossing Paths"
         ,    "words": "420"
+        , "longitude":  -0.2113763
+        ,    "latitude": 50.8839655
         },
         {
             "id" : "68"
@@ -532,6 +577,8 @@
         ,"characters": ["Sam", "Madam Quark"]
         , "collection": "Crossing Paths"
         ,    "words": "500"
+        , "longitude":  -0.2113763
+        ,    "latitude": 50.8839655
         },
         {
             "id" : "69"
@@ -548,5 +595,172 @@
             "URL": "https://buttondown.com/microfictions/archive/the-summer-fete/",
             "words" : "505"
         }
+        ,{
+            "id" : "71",
+            "title": "Imaginary Picnics",
+            "characters": [""],
+            "URL": "https://buttondown.com/microfictions/archive/imaginary-picnics/",
+	    "words": "268"
+        }
+        ,{
+            "id" : "71",
+            "title": "Goldsworthy",
+            "characters": ["Blight", "Harry", "Colin"],
+            "URL": "https://buttondown.com/microfictions/archive/goldsworthy/",
+	    "collection": "The Artist",
+	    "words": "638"
+        }
+,{
+            "id" : "72",
+            "title": "How Devil’s Dyke Came to Be",
+            "characters": [""],
+	    "collection": "The Devil",
+	    "words": "440"
+        , "longitude":  -0.2113763
+        ,    "latitude": 50.8839655
+        }
+,{
+            "id" : "73",
+            "title": "Temptations",
+            "characters": [""],
+	    "collection": "The Devil",
+	    "words": "390"
+        , "longitude":  -0.21343
+        ,    "latitude": 50.88612
+        }
+,{
+            "id" : "74",
+            "title": "Wolstonbury",
+            "characters": [""],
+	    "collection": "The Devil",
+	    "words": "330"
+        , "longitude":  -0.17500
+        ,    "latitude": 50.90973
+        }
+,{
+            "id" : "75",
+            "title": "Hail Satan!",
+            "characters": [""],
+	    "collection": "The Devil",
+	    "words": "473"
+        , "longitude":  -0.4555500
+        ,    "latitude": 50.9184454
+        }
+,{
+            "id" : "76",
+            "title": "Breaking Bounds",
+            "characters": [""],
+	    "collection": "The Devil",
+	    "words": "400"
+        , "longitude":  -0.15450
+        ,    "latitude": 50.92433
+        }
+,{
+            "id" : "77",
+            "title": "The Lighthouse",
+            "characters": [""],
+	    "collection": "",
+	    "words": "221"
+        , "longitude":  0.24148
+        ,    "latitude": 50.73367
+        }
+,{
+            "id" : "78",
+            "title": "A Box of Keepsakes",
+            "characters": [""],
+	    "collection": "",
+	    "words": "378"
+        , "longitude":   -0.1511
+        ,    "latitude": 50.8208
+        }
+,{
+            "id" : "79",
+            "title": "The Diocese of Chichester is Cursed Until the End of Time",
+            "characters": [""],
+	    "collection": "",
+	    "words": "455"
+        , "longitude":   -1.12748
+        ,    "latitude": 50.98571
+        }
+,{
+            "id" : "80",
+            "title": "Like a New York Cabbie on a Rainy Day",
+            "characters": ["Jeff", "The Devil"],
+	    "collection": "The Devil",
+	    "words": "440"
+        , "longitude":   -0.9674
+        ,    "latitude": 50.9622
+        }
+,{
+            "id" : "81",
+            "title": "Love",
+            "characters": ["The Walker"],
+	    "collection": "The Devil",
+	    "words": "163"
+        , "longitude":   -0.7542
+        ,    "latitude": 50.9510
+        }
+,{
+            "id" : "82",
+            "title": "Love",
+            "characters": ["The Walker"],
+	    "collection": "The Devil",
+	    "words": "163"
+        , "longitude":   -0.7542
+        ,    "latitude": 50.9510
+        }
+,{
+            "id" : "83",
+            "title": "Sussex Crossroad Blues",
+            "characters": ["The Walker", "Gary"],
+	    "collection": "The Devil",
+	    "words": "566"
+        , "longitude":   -0.6219
+        ,    "latitude": 50.9317
+        }
+,{
+            "id" : "84",
+            "title": "Blessed are the Pure in Heart",
+            "characters": ["Mr Pig"],
+	    "collection": "The Devil",
+	    "words": "548"
+        , "longitude":   -0.3276
+        ,    "latitude": 50.8712
+        }
+,{
+            "id" : "85",
+            "title": "The Fortune Teller",
+            "characters": ["Sam"],
+	    "collection": "The Devil",
+	    "words": "110"
+        , "longitude":   0.1560210
+        ,    "latitude": 50.8084358
+        }
+,{
+            "id" : "86",
+            "title": "Sanctuary",
+            "characters": ["The Walker"],
+	    "collection": "The Devil",
+	    "words": "346"
+        }
+,{
+            "id" : "87",
+            "title": "Bargaining",
+            "characters": ["Judy", "The Devil"],
+	    "collection": "The Devil",
+	    "words": "378"
+        , "longitude":   0.2888
+        ,    "latitude": 50.7676
+        }
+,{
+            "id" : "88",
+            "title": "The Devil's Grave, and his Wife's",
+            "characters": ["Judy", "The Devil"],
+	    "collection": "The Devil",
+	    "words": "288"
+        , "longitude":   -0.2050
+        ,    "latitude": 50.885
+        }
+
     ]
 }
