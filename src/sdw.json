@@ -10,16 +10,6 @@
         , "latitude": 50.901
         },
         {
-            "id" : "32",
-            "title": "The Lost Village",
-            "characters": ["Jeff","Sally"]
-	    , "collection": "Imaginary Folk Tales of the South Downs Way"
-	    , "URL": "https://buttondown.com/microfictions/archive/the-lost-village/"            
-           , "words": "550"
-            , "longitude": -0.153
-            , "latitude": 50.901
-        },
-        {
             "id" : "2",
             "title": "The Money Burner",
             "characters": ["Sally", "Jess"]
@@ -58,6 +48,7 @@
 	    , "collection": "How to Escape the Office",
             "URL": "https://buttondown.com/microfictions/archive/by-london-road-station-i-sat-down/",
              "words" : "270"
+, "date": "2010"
         }
         ,{
             "id" : "7",
@@ -94,21 +85,21 @@
         ,{
             "id" : "11",
             "title": "Stragglers",
-            "characters": []
+            "characters": ["Paul", "Cate"]
 	    , "collection": "Once Upon a Time in Brighton and Hove"
             , "URL": "https://buttondown.com/microfictions/archive/stragglers/"
         }
         ,{
             "id" : "12",
             "title": "Everyone in an Anecdote has a different version of it",
-            "characters": []
+            "characters": ["Tara"]
 	    , "collection": "Once Upon a Time in Brighton and Hove"
 	    , "URL": "https://buttondown.com/microfictions/archive/everyone-in-an-anecdote-has-a-different/"
         }
         ,{
             "id" : "13",
             "title": "Barefoot",
-            "characters": []
+            "characters": ["Ellie", "Art Teacher"]
 	    , "collection": "Satan's Albion"
             , "URL": "https://buttondown.com/microfictions/archive/barefoot/"
         }
@@ -160,9 +151,10 @@
         ,{
             "id" : "20"
             , "title": "Who Made the Stars"
-            , "characters": []
+            , "characters": ["Shane", "The Devil"]
 	    , "collection": "Physics"
             , "URL": "https://buttondown.com/microfictions/archive/who-made-the-stars/"
+ , "words": "629"
         }
         ,{
             "id" : "21"
@@ -262,6 +254,16 @@
         , "characters": ["Jimmy King", "Nearvana Bassist"]
         , "URL": "https://buttondown.com/microfictions/archive/the-best-ever-satanic-cult-out-of/"
         , "words": "340"
+        },
+        {
+            "id" : "32",
+            "title": "The Lost Village",
+            "characters": ["Jeff","Sally"]
+	    , "collection": "Imaginary Folk Tales of the South Downs Way"
+	    , "URL": "https://buttondown.com/microfictions/archive/the-lost-village/"            
+           , "words": "550"
+            , "longitude": -0.153
+            , "latitude": 50.901
         }
     ,{
             "id" : "33"
@@ -598,7 +600,7 @@
         ,{
             "id" : "71",
             "title": "Imaginary Picnics",
-            "characters": [""],
+            "characters": ["Dave"],
             "URL": "https://buttondown.com/microfictions/archive/imaginary-picnics/",
 	    "words": "268"
         }
@@ -649,7 +651,7 @@
 ,{
             "id" : "76",
             "title": "Breaking Bounds",
-            "characters": [""],
+            "characters": ["The Walker"],
 	    "collection": "The Devil",
 	    "words": "400"
         , "longitude":  -0.15450
@@ -760,6 +762,114 @@
 	    "words": "288"
         , "longitude":   -0.2050
         ,    "latitude": 50.885
+        }
+,{
+            "id" : "89",
+            "title": "0: The Fool",
+            "characters": ["Sam", "Roger"],
+	    "collection": "A Foolish Journey",
+	    "words": "591"
+        , "longitude":   -1.307789
+        ,    "latitude": 51.06113
+        }
+,{
+            "id" : "90",
+            "title": "The Future is Unwritten",
+            "characters": ["Sam", "Shane"],
+	    "collection": "A Foolish Journey",
+	    "words": "470"
+        , "longitude":   -0.13240
+        ,    "latitude": 50.84539
+        }
+,{
+            "id" : "90",
+            "title": "Tarot and Sandwiches",
+            "characters": ["Sam", "Angela"],
+	    "collection": "A Foolish Journey",
+	    "words": "463"
+        , "longitude":   -0.2733863692420556
+        ,    "latitude": 50.83315662546067
+        }
+,{
+            "id" : "91",
+            "title": "Men At Parties",
+            "characters": ["Sam", "Jemima", "Hugo"],
+	    "collection": "A Foolish Journey",
+	    "words": "463"
+        , "longitude":   0.06863203258185563
+        ,    "latitude": 50.83437975999398
+        }
+,{
+            "id" : "92",
+            "title": "XVI: The Tower",
+            "characters": ["Sam"],
+	    "collection": "A Foolish Journey",
+	    "words": "143"
+        , "longitude":   -0.36615850607231193
+        ,    "latitude": 50.887570006423495
+        }
+,{
+            "id" : "93",
+            "title": "Symmetry breaking",
+            "characters": ["Sam", "Shane", "laura"],
+	    "collection": "A Foolish Journey",
+	    "words": "518"
+        , "longitude":   0.003772992802613955
+        ,    "latitude": 50.86822201028167
+        }
+,{
+            "id" : "94",
+            "title": "The Sussex Treacle Mines",
+            "characters": ["Rick", "Joe"],
+	    "collection": "A Foolish Journey",
+	    "words": "635"
+        , "longitude":   0.003772992802613955
+        ,    "latitude": 50.86822201028167
+        }
+,{
+            "id" : "95",
+            "title": "Straying from the Path",
+            "characters": ["Sam"],
+	    "collection": "A Foolish Journey",
+	    "words": "583"
+        , "longitude":   -0.21274964740435065
+        ,    "latitude": 50.88436496002285
+        }
+,{
+            "id" : "96",
+            "title": "The Likes of You and I",
+            "characters": ["Sam"],
+	    "collection": "A Foolish Journey",
+	    "words": "523"
+        , "longitude":   0.12000000
+        ,    "latitude": 50.84000000
+        }
+,{
+            "id" : "97",
+            "title": "Badly Painted Flowers",
+            "characters": ["Roger", "Laura"],
+	    "collection": "A Foolish Journey",
+	    "words": "396"
+        , "longitude":   0.16055556
+        ,    "latitude": 50.79055556
+        }
+,{
+            "id" : "97",
+            "title": "XV: The Devil",
+            "characters": ["Sam", "The Devil"],
+	    "collection": "A Foolish Journey",
+	    "words": "585"
+        , "longitude":   0.24170166751774527
+        ,    "latitude": 50.73615523814354
+        }
+,{
+            "id" : "98",
+            "title": "XXI: The World",
+            "characters": ["Sam", "Davey", "Gary"],
+	    "collection": "A Foolish Journey",
+	    "words": "606"
+        , "longitude":   0.2658656884607436
+        ,    "latitude": 50.75133142005376
         }
 
     ]
