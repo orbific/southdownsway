@@ -615,7 +615,7 @@
 ,{
             "id" : "72",
             "title": "How Devil’s Dyke Came to Be",
-            "characters": [""],
+            "characters": ["The Devil"],
 	    "collection": "The Devil",
 	    "words": "440"
         , "longitude":  -0.2113763
@@ -624,7 +624,7 @@
 ,{
             "id" : "73",
             "title": "Temptations",
-            "characters": [""],
+            "characters": ["The Devil", "Jesus"],
 	    "collection": "The Devil",
 	    "words": "390"
         , "longitude":  -0.21343
@@ -633,7 +633,7 @@
 ,{
             "id" : "74",
             "title": "Wolstonbury",
-            "characters": [""],
+            "characters": ["The Walker"],
 	    "collection": "The Devil",
 	    "words": "330"
         , "longitude":  -0.17500
@@ -642,7 +642,7 @@
 ,{
             "id" : "75",
             "title": "Hail Satan!",
-            "characters": [""],
+            "characters": ["Sam", "Laura", "Gary"],
 	    "collection": "The Devil",
 	    "words": "473"
         , "longitude":  -0.4555500
@@ -660,8 +660,8 @@
 ,{
             "id" : "77",
             "title": "The Lighthouse",
-            "characters": [""],
-	    "collection": "",
+            "characters": ["Charlie"],
+	    "collection": "The Devil",
 	    "words": "221"
         , "longitude":  0.24148
         ,    "latitude": 50.73367
@@ -669,8 +669,8 @@
 ,{
             "id" : "78",
             "title": "A Box of Keepsakes",
-            "characters": [""],
-	    "collection": "",
+            "characters": ["The Walker"],
+	    "collection": "The Devil",
 	    "words": "378"
         , "longitude":   -0.1511
         ,    "latitude": 50.8208
@@ -678,8 +678,8 @@
 ,{
             "id" : "79",
             "title": "The Diocese of Chichester is Cursed Until the End of Time",
-            "characters": [""],
-	    "collection": "",
+            "characters": ["The Devil"],
+	    "collection": "The Devil",
 	    "words": "455"
         , "longitude":   -1.12748
         ,    "latitude": 50.98571
