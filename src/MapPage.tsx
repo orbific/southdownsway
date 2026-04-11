@@ -12,7 +12,8 @@ import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 const DefaultIcon = L.icon({
     iconUrl: markerIcon,
     shadowUrl: markerShadow,
-    iconAnchor: [12, 41], // Adjust anchor to center the marker
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
 });
 L.Marker.prototype.options.icon = DefaultIcon;
 
