@@ -51,16 +51,11 @@ const StoriesPage: React.FC = () => {
 return (
 
     <div className="App">
-        {Object.entries(
-            categorizedStories.reduce((acc, story) => {
-                const collection = story.collection!;
-                if (!acc[collection]) {
-                    acc[collection] = [];
-                }
-                acc[collection].push(story);
-                return acc;
-            }, {} as Record<string, Story[]>)
-        ).map(([collection, stories]) => (
+        {typedCollections.map(col => {
+            const stories = categorizedStories.filter(story => story.collection === col.title);
+            if (stories.length === 0) return null;
+            const collection = col.title;
+            return (
             <div key={collection} className="collection-section">
                 <h2
                     onClick={() => toggleVisibility(collection)}
@@ -88,7 +83,8 @@ return (
                     ))}
                 </ul>
             </div>
-        ))}
+            );
+        })}
         <div>
             <ul>
                 {uncategorizedStories.map((story, index) => (
