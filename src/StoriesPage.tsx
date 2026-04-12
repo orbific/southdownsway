@@ -40,11 +40,11 @@ const StoriesPage: React.FC = () => {
         };
 
         const categorizedStories = stories
-            .filter(story => story.collection && typedCollections.find(col => col.title === story.collection)?.URL)
+            .filter(story => story.collection)
             .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
         const uncategorizedStories = stories
-            .filter(story => !story.collection || !typedCollections.find(col => col.title === story.collection)?.URL)
+            .filter(story => !story.collection)
             .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
 
@@ -63,11 +63,15 @@ return (
                     aria-expanded={!!visibleCollections[collection]}
                 >
                     <i className={`fas fa-chevron-right collection-chevron ${visibleCollections[collection] ? 'expanded' : ''}`}></i>
-                    <a href={typedCollections.find((col: Collection) => col.title === collection)?.URL}
-                       target="_blank" rel="noopener noreferrer"
-                       onClick={e => e.stopPropagation()}>
-                        {collection}
-                    </a>
+                    {typedCollections.find((col: Collection) => col.title === collection)?.URL ? (
+                        <a href={typedCollections.find((col: Collection) => col.title === collection)?.URL}
+                           target="_blank" rel="noopener noreferrer"
+                           onClick={e => e.stopPropagation()}>
+                            {collection}
+                        </a>
+                    ) : (
+                        <span>{collection}</span>
+                    )}
                 </h2>
                 <ul className={`story-list ${visibleCollections[collection] ? 'visible' : ''}`}>
                     {stories.map((story, index) => (
