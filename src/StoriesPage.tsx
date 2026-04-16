@@ -8,11 +8,16 @@ type Story = {
     id: string;
     title: string;
     characters?: string[];
-    collection?: string;
+    collection?: string | string[];
     URL?: string;
     words?: string;
     distanceAlongTrail?: number;
     location?: string;
+};
+
+const getCollections = (story: Story): string[] => {
+    if (!story.collection) return [];
+    return Array.isArray(story.collection) ? story.collection : [story.collection];
 };
 
 type Collection = {
@@ -40,11 +45,11 @@ const StoriesPage: React.FC = () => {
         };
 
         const categorizedStories = stories
-            .filter(story => story.collection)
+            .filter(story => getCollections(story).length > 0)
             .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
         const uncategorizedStories = stories
-            .filter(story => !story.collection)
+            .filter(story => getCollections(story).length === 0)
             .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
 
@@ -52,7 +57,7 @@ return (
 
     <div className="App">
         {typedCollections.map(col => {
-            const stories = categorizedStories.filter(story => story.collection === col.title);
+            const stories = categorizedStories.filter(story => getCollections(story).includes(col.title));
             if (stories.length === 0) return null;
             const collection = col.title;
             return (
